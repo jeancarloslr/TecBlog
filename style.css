@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+:root{
+    --darkble: #024798;
+    --blue: #0054C6;
+    --lightblue: #009AF9;
+    --black: #06090F;
+}
+
+header{
+    height: 150px;
+    background-color: var(--black);
+    position: relative;
+}
+
+hr{
+   border: none;
+   background-color: #0D121B;
+   height: 0.1em;
+}
+
+body{
+    background-color: var(--black);
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+    background-image: linear-gradient(to right, var(--lightblue), var(--darkble));
+    -webkit-background-clip: text; /* Define a área do texto como máscara para o gradiente (navegadores WebKit) */
+    color: transparent;
+    font-weight: bold;
+    font-size: 2.4em;
+}
+
+nav{
+    position: absolute;
+    min-width: 500px;
+    left: 50%;
+    transform: translate(-40%);   
+}
+
+a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+}
+
+
+
