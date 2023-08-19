@@ -4,14 +4,17 @@
 }
 
 :root{
+
     --darkble: #024798;
     --blue: #0054C6;
     --lightblue: #009AF9;
     --black: #06090F;
+    --texto: #A39A8B;
+
 }
 
 header{
-    height: 150px;
+    min-height: 150px;
     background-color: var(--black);
     position: relative;
 }
@@ -38,16 +41,94 @@ h1{
 
 nav{
     position: absolute;
-    min-width: 500px;
     left: 50%;
-    transform: translate(-40%);   
-}
+    top: 59%;
+    transform: translate(-45%);  
 
+}
+ 
 a{
     text-decoration: none;
-    padding-right: 15px;
-    color: white;
+    margin-right: 15px;
+    padding: 0 5px;
+    color: white;  
+    position: relative;
+    letter-spacing: 0.5px;
 }
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: var(--lightblue);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+.postagens{
+    position: relative;
+    top: 20px;
+    left: 16%;
+
+    height: 1000px;
+    max-width: 700px;
+    min-width: 300px;
+    
+}
+
+.post1{
+    position: absolute;
+    padding: 16px 20px 10px 20px;
+    background-color: #0d0e13;
+    max-width: 700px;
+    min-width: 300px;
+    border-radius: 8px;
+
+
+}
+
+.post2{
+    position: absolute;
+    top: 64%;
+    padding: 16px 20px 10px 20px;
+    background-color: #0d0e13;
+    border-radius: 8px;
+}
+
+h2{
+    color: var(--blue);
+    padding-bottom: 3px;
+}
+
+.info{
+    color: white;
+    padding-bottom: 12px;
+}
+
+p{
+    color: #9CA3AF;
+    padding-top: 10px;
+}
+
+.mais{
+
+    color: var(--lightblue);
+
+}
+
+
+
+
+
+
+
+
 
 
 
