@@ -105,6 +105,7 @@ h2{
     padding-bottom: 3px;
 }
 
+
 .info{
     color: white;
     padding-bottom: 12px;
@@ -112,22 +113,29 @@ h2{
 
 p{
     color: #9CA3AF;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .mais{
 
     color: var(--lightblue);
+    padding-top: 5px;
 
 }
 
 .container{
     position: relative;
     width: 400px;
-    height: 200px;
-    left: 68%;
-    top: 0%;
-    background-color: red;
+    height: 179px;
+    top: -978px;
+    right: -942px;
+    background-color: #0d0e13;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.post-recentes hr{
+    margin-top: 8px;
 }
 
 
